@@ -2,9 +2,8 @@ package STRINGPROGRAMS;
 
 public class VowelConsonantCounter {
 	public static void main(String[] args) {
-		String str = "Java Programming";
+		String str = "Java Programming".toLowerCase();
 		  
-		str = str.toLowerCase();
 		int vowels = 0, consonants = 0;
 		for (int i = 0; i < str.length(); i++) {
 			char ch = str.charAt(i);
@@ -20,6 +19,6 @@ public class VowelConsonantCounter {
 		}
 		System.out.println("Number of Vowels: " + vowels);
 		System.out.println("Number of Consonants: " + consonants);
-	}
+	} 
 
 }
