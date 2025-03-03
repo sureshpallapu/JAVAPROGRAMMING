@@ -1,4 +1,4 @@
-package NUMBERPROGRAMS.NumberTypes;
+  package NUMBERPROGRAMS.NumberTypes;
 
 import java.util.Scanner;
 
