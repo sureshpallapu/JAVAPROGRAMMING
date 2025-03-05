@@ -8,18 +8,28 @@ public class invertedPYramid {
 		System.out.println("enter the number u want");
 		int n;
 		n = s.nextInt();
+//		upper pyramid
 		for (int i = 1; i <= n; i++) {
-			for (int l = 1; l <= i; l++) {//in
+			int k = 1;
+			for (int j = 1; j <= i; j++) {// in
 				System.out.print(" ");
 			}
-			for (int m = i; m <= n; m++) {//de
-				System.out.print("*");
+			for (int m  = i; m <= n; m++) {// de
+				System.out.print(k++ + " ");
 			}
-			for (int k = i; k < n; k++) {//de
-				System.out.print("*");
+			System.out.println();
+		}
+//      lower pyramid 
+		for (int i = 2; i <= n; i++) {
+			int a = 1;
+			for (int k = i; k <= n; k++) {// de
+				System.out.print(" ");
 			}
-			
-			
+			for (int l = 1; l <= i; l++) {// in
+				System.out.print(a++ + " ");
+
+			}
+
 			System.out.println();
 
 		}
