@@ -15,13 +15,7 @@ public class FactorialOfNumber {
 		Scanner s = new Scanner(System.in);
 		System.out.println("enter the number ");
 		int num = s.nextInt();
-		int sum = 0;
-		while (num > 0) {
-			int mod = num % 10;
-			sum = sum + fact(mod);
-			num /= 10;
-		}
-		System.out.println(" factorial of a number "+sum);
+		int result = fact(num);
+		System.out.println(result);
 	}
-	
 }
