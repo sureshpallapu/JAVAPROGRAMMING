@@ -15,6 +15,6 @@ public class FibonacciSeries {
 			a = b;
 			b = next;
 		}
-
 	}
 }
+ 
