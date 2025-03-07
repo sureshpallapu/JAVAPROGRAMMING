@@ -15,10 +15,6 @@ public class CharacterFrequencyCount {
             if (frequency[i] >  0) {
                 System.out.print((char) i + "" + frequency[i]);
             }
-        }
-	
-	
-	
-	
+        }	
 	}
 }
