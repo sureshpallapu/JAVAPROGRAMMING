@@ -6,7 +6,7 @@ public class LCM {
 	public static void main(String[] args) {
 
 		Scanner s = new Scanner(System.in);
-		System.out.println("enter the number ");
+		System.out.println("enter th e number ");
 		int a = s.nextInt();
 		int b = s.nextInt();
 		int tem = a * b;
