@@ -16,7 +16,7 @@ public class LCM {
 			a = temp;
 
 		}
-		System.out.println(" hcf     : " + a);
+		System.out.println(" hcf  : " + a);
 
 		int lcm = tem / a;
 		System.out.println(" lcm  :" + lcm);
